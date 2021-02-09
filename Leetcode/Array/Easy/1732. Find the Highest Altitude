@@ -1,0 +1,12 @@
+lass Solution {
+public:
+    int largestAltitude(vector<int>& gain) {
+        vector<int> v;
+        int i;
+        v.push_back(0);
+        for(i=0;i<gain.size();i++){
+            v.push_back(v[i]+gain[i]);
+        }
+        return *max_element(v.begin(),v.end());
+    }
+};
