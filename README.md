@@ -1,2 +1,2 @@
 # Competitive-Programming
-Here is a list of Leetcode problem solutions topicwise listed in Easy, Meduim and Hard Category.
+Here is a list of Leetcode and GeeksforGeeks algorithmic problem solutions.
