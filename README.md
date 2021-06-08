@@ -1,2 +1,2 @@
 # Competitive-Programming
-Here is a list of Leetcode and GeeksforGeeks algorithmic problem solutions.
+Here is a list of GeeksforGeeks algorithmic problem solutions.
