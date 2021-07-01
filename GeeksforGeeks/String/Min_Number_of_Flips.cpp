@@ -20,7 +20,7 @@ int32_t main()
 int minFlips (string S)
 {
     // your code here
-    int cnt=0;
+    	    int cnt=0;
 	    string s1="";
 	    string s2="";
 	    for(int i=0;i<S.length();i++)
