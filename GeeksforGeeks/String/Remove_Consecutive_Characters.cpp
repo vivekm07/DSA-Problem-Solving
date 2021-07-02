@@ -14,8 +14,9 @@ class Solution{
         int i = 1;
         int len = S.length();
         while(i < len){
-            while(i < len && S[ans] == S[i])
+            while(i < len && S[ans] == S[i]){
                 i++;
+            }
             if(i < len){
                 S[++ans] = S[i];
                 i++;
