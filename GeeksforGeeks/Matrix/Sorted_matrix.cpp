@@ -21,7 +21,7 @@ class Solution {
         sort(v1.begin(), v1.end());
         for (int i = 0; i < N; i++){
             for (int j = 0; j < N; j++){ 
-                Mat[i][j] = v1[idx++];
+                Mat[i][j] = v1[index++];
             }
         }
         return Mat;
