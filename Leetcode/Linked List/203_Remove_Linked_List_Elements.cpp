@@ -4,8 +4,8 @@ public:
           if(head == NULL) {
             return head;
         }
-        ListNode *prev = NULL, *tmp = head;
-        while(head=0) {
+        ListNode *prev = NULL, *temp = head;
+        while(head!=0) {
             if(head->val != val) {
                 prev = head;
 
@@ -15,11 +15,11 @@ public:
                     prev->next = head->next;
                 } 
                 else {
-                    tmp = head->next;
+                    temp = head->next;
                 }
             }
             head = head->next;
         }
-        return tmp;
+        return temp;
     }
 };
