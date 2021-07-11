@@ -1,25 +1,25 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> st;
+        stack<char> stk;
         for(char c:s){
-            if(st.empty() || c=='(' || c=='{' || c=='[')
-                st.push(c);
+            if(stk.empty() || c=='(' || c=='{' || c=='[')
+                stk.push(c);
             else{
-                if(st.empty())
+                if(stk.empty())
                     return false;
                 else{
-                    if(c==')' && st.top()!='(')
+                    if(c==')' && stk.top()!='(')
                         return false;
-                    if(c=='}' && st.top()!='{')
+                    if(c=='}' && stk.top()!='{')
                         return false;
-                    if(c==']' && st.top()!='[')
+                    if(c==']' && stk.top()!='[')
                         return false;
                     else
-                        st.pop();
+                        stk.pop();
                 }
             }
         }
-        return st.empty();
+        return stk.empty();
     }
 };
