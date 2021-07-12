@@ -73,6 +73,6 @@ int getMiddle(Node *head)
        slow=slow->next;
        fast=fast->next->next;
    }
-   int c=slow->data;
-   return c;
+   int cnt=slow->data;
+   return cnt;
 }
