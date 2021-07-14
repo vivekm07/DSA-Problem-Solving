@@ -19,7 +19,7 @@ class Solution
                 for(int i=left;i<=right;i++){
                     v.push_back(matrix[top][i]);
                 }
-                top++;
+                top--;
             }
             else if(dir==1){
                 for(int i=top;i<=bottom;i++){
