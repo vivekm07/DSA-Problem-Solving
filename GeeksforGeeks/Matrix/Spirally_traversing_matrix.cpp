@@ -10,7 +10,7 @@ class Solution
     //Function to return a list of integers denoting spiral traversal of matrix.
     vector<int> spirallyTraverse(vector<vector<int> > matrix, int r, int c) 
     {
-       
+        //code here
         vector<int> v;
         int top=0,bottom=matrix.size()-1,left=0,right=matrix[0].size()-1; // 4 integer variables for 4 directions.
         int dir=0;
